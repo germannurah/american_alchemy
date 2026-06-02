@@ -7,8 +7,8 @@
 
     <style>
         body {
-            background-color: #FFFFF0;
-            color: #333333;
+            background-color: #FFFFF0; /* Ivory */
+            color: #333333; /* Charcoal */
             font-family: "Times New Roman", serif;
             line-height: 1.6;
             max-width: 700px;
@@ -20,7 +20,7 @@
         header {
             border-bottom: 2px solid #333333;
             margin-bottom: 30px;
-            padding-bottom: 10px;
+            padding-bottom: 15px;
         }
 
         h1 {
@@ -35,6 +35,39 @@
             font-weight: normal;
             margin-top: 5px;
             color: #555;
+            margin-bottom: 15px;
+        }
+
+        /* Minimalist Navigation Styles */
+        nav {
+            margin-top: 15px;
+        }
+
+        .nav-links {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .nav-links li {
+            display: inline;
+        }
+
+        .nav-links a {
+            color: #333333;
+            text-decoration: none;
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: color 0.2s ease;
+        }
+
+        .nav-links a:hover {
+            color: #777777;
+            text-decoration: underline;
         }
 
         h3 {
@@ -79,6 +112,16 @@
     <header>
         <h1>Money Mastery From Within</h1>
         <h2>From Choice Into Freedom</h2>
+        
+        <!-- Integrated Navigation Menu -->
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#hypnotherapy">Hypnotherapy Training</a></li>
+                <li><a href="moneymastery.html">Money Mastery From Within</a></li>
+                <li><a href="index.html#spiritual-foundation">Spiritual Foundation</a></li>
+            </ul>
+        </nav>
     </header>
 
     <section>
@@ -104,3 +147,6 @@
         </p>
 
     </section>
+
+</body>
+</html>
