@@ -1,9 +1,8 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Financial Mystery School | American Alchemy Institute</title>
+    <title>Nora Hoffmann | American Alchemy Institute</title>
 
     <style>
         body {
@@ -72,7 +71,11 @@
 
         h3 {
             font-weight: bold;
-            margin-top: 30px;
+        }
+
+        .contact-info {
+            margin-bottom: 30px;
+            font-weight: bold;
         }
 
         .focus-area {
@@ -91,13 +94,6 @@
             list-style-type: square;
         }
 
-        blockquote {
-            margin: 20px 0;
-            padding-left: 20px;
-            border-left: 3px solid #999;
-            font-style: italic;
-        }
-
         footer {
             margin-top: 50px;
             font-size: 0.9rem;
@@ -107,46 +103,46 @@
     </style>
 </head>
 
+
+
+
+
 <body>
 
     <header>
-        <h1>Money Mastery From Within</h1>
-        <h2>From Choice Into Freedom</h2>
+        <h1>Nora Hoffmann</h1>
+        <h2>American Alchemy Institute</h2>
         
         <!-- Integrated Navigation Menu -->
         <nav>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="index.html#hypnotherapy">Hypnotherapy Training</a></li>
+                <li><a href="hypnotherapy.html">Hypnotherapy Training</a></li>
                 <li><a href="moneymastery.html">Money Mastery From Within</a></li>
-                <li><a href="index.html#spiritual-foundation">Spiritual Foundation</a></li>
+                <li><a href="kl,./spiritualfoundation.html">Spiritual Foundation</a></li>
             </ul>
         </nav>
     </header>
 
-    <section>
 
+<section id="money-mastery">
+    <h3>Money Mastery from Within</h3>
+
+    <p>
+        <em>"No one truly knows the truth about money for another person. Only you can discover what works for you."</em>
+    </p>
+
+    <div class="focus-area">
         <p>
             Make new empowering financial choices to serve the true development of your soul.
         </p>
 
-        <blockquote>
-            No one truly knows the truth about money for another person.
-            Only you can discover what works for you.
-        </blockquote>
-
         <p>
-            These workshops are designed for those who wish to explore their relationship
-            with money through self-inquiry.
+            These workshops are designed for those who wish to explore their relationship with money through self-inquiry.
         </p>
 
         <p>
-            Participants are invited to investigate the deeper motivations beneath
-            financial decisions and discover how money may become a tool in service
-            of truth rather than a substitute.
+            Participants are invited to investigate the deeper motivations beneath financial decisions and discover how money may become a tool in service of truth rather than a substitute.
         </p>
-
-    </section>
-
-</body>
-</html>
+    </div>
+</section>
