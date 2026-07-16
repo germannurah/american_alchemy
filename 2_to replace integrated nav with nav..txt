@@ -1,0 +1,21 @@
+to replace integrated nav with nav.js these two steps are necessary
+
+
+1 -- 
+
+replace <nav>-</nav> 
+
+through
+
+<nav id="main-nav">
+    <!-- JavaScript will automatically inject your navigation menu here -->
+</nav>
+
+
+2 -- 
+
+merely add this line before the </body></html> finishing tags
+
+<script src="nav.js"></script>
+</body>
+</html>
